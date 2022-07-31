@@ -4,7 +4,8 @@
   "description": "practice with cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "cypress open",
+    "domain-test": "cypress run cypress/e2e/DomainTest.cy.js --browser chrome"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,6 @@
   },
   "homepage": "https://bitbucket.org/tjseril/cypress-test#readme",
   "dependencies": {
-    "cypress": "^10.3.1"
+    "cypress": "^10.3.1"  
   }
 }
