@@ -4,7 +4,7 @@
   "description": "practice with cypress",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open",
+    "cyp:open": "cypress open",
     "domain-test": "cypress run cypress/e2e/DomainTest.cy.js --browser chrome"
   },
   "repository": {
